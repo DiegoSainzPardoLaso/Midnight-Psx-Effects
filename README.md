@@ -2,6 +2,8 @@
 
 **Midnight PSX Shader** is a fully functional shader made using HLSL that **brings** the original limitations of the PS1 era within the reach of a click. It allows you to create the very look you want for your game/project without needing to touch any code. It is the most flexible shader out there, and the best part is, it's **FREE!**
 
+**Things that the Midnight PSX Shader Can Do:**
+
 **Texture Mapping:**
 
 -   Affine Texture Mapping
