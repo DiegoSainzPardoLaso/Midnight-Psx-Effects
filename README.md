@@ -50,7 +50,9 @@
 
 ## Effects Examples
 
-Poner Ejemplos aqui del shader haciendo effecto, usar el mago que no pasa nada
+LOD Dynamic Texture Pixelization
+https://github.com/DiegoSainzPardoLaso/Midnight-Psx-Effects/assets/114008071/d3f6475b-c8c7-4ff6-9146-c35da02b4056
+
 
 
 ## Effects Explanation
