@@ -67,35 +67,52 @@ Poner Ejemplos aqui del shader haciendo effecto, usar el mago que no pasa nada
 
 ## Custom Lighting Model 
 
+## Custom Lighting Model 
+
 This step calculates the normalized direction vector of the vertex normal in object space. It discards the W component to ensure that only the directional information is retained. This directional information is crucial for lighting calculations as it determines how the surface reflects light.
+
 $$
-\overrightarrow{ND} = \frac{(\vec v.normal * [WorldToObject]).xyz}{||ND||} \,
+\overrightarrow{ND} = \frac{(\vec v.normal * [WorldToObject]).xyz}{||ND||}
 $$
+
 Computes the direction from the current vertex to the camera or viewer position in world space. Understanding where the viewer is looking from is essential for simulating realistic lighting effects such as specular highlights and reflections.
+
 $$
 \overrightarrow{VD} = \frac{(\overrightarrow{WorldSpaceCameraPosition} - ([ObjectToWorld] * \vec v.pos))} {||VD||}
 $$
+
 This step determines the direction of the light source in world space. It's crucial for both diffuse and specular lighting calculations. Depending on the setup, either the direction to a predefined light source (`WorldSpaceLight0`) or a custom light direction (`CustomLightDirection`) is used.
+
 $$
 \overrightarrow{LD} = \frac{\overrightarrow{WorldSpaceLight0}} {||WorldSpaceLight0||} or  \frac{\overrightarrow{CustomLightDirection}} {||CustomLightDirection||} 
 $$
+
 Diffuse reflections represent the light that is scattered uniformly in all directions upon hitting a surface. This calculation considers the angle between the vertex normal and the light direction, which determines how much light is reflected.
+
 $$
 \overrightarrow{DR} = atten * \overrightarrow{LightColor0} * dot(\overrightarrow{ND}, \overrightarrow{LD})
 $$
+
 Specular reflections are the highlights that appear on shiny surfaces when illuminated. This calculation involves computing the reflection of the light direction about the vertex normal (using the `reflect` function). It then determines how much of this reflected light aligns with the view direction, modulated by the material's smoothness.
+
 $$
 \overrightarrow{SR} = \overrightarrow{SpecularColor} * max(0, dot(\overrightarrow{ND}, \frac{\overrightarrow{LD}} {4})) * (max(0, dot(reflect(\frac{\overrightarrow{-LD}} {4}, \overrightarrow{ND}), \overrightarrow{VD})), Smoothness)
 $$
+
 This step calculates the outline effect by determining the angle between the view direction and the vertex normal. 
+
 $$
 \overrightarrow{OL} = 1 - saturate(dot(\frac{\overrightarrow{VD}}{||VD||}, \overrightarrow{ND}))
 $$
+
 Rim lighting simulates the effect of light scattering along the edges of objects, creating a rim or halo effect. It combines the light color with the rim color based on the angle between the vertex normal and the light direction, modulated by the outline factor and rim power.
+
 $$
 \overrightarrow{RL} = atten * \overrightarrow{LightColor0} * \overrightarrow{RimColor} * saturate(dot(\overrightarrow{ND}, \overrightarrow{LD})) * pow(\overrightarrow{OL}, RimPower) 
 $$
+
 The pixel's color is computed by combining the diffuse reflections, specular reflections, rim lighting, and any ambient color contribution. This is the culmination of all the lighting calculations and determines the visual appearance of the rendered object.
+
 $$
 \overrightarrow{FL} = \overrightarrow{DR} + \overrightarrow{SR} + \overrightarrow{RL} + \overrightarrow{CustomAmbientColor}     
 $$
