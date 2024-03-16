@@ -48,7 +48,7 @@
 
 **Additional vertical fog shader included**
 
-## Shader Examples
+## Effects Examples
 
 Poner Ejemplos aqui del shader haciendo effecto, usar el mago que no pasa nada
 
