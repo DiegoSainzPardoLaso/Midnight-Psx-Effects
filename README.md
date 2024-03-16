@@ -67,7 +67,9 @@ Poner Ejemplos aqui del shader haciendo effecto, usar el mago que no pasa nada
 
 ## Custom Lighting Model 
 
-## Custom Lighting Model 
+The shader doesn't just crunch numbers; it embodies a custom lighting model meticulously crafted to evoke the distinctive feel and aesthetics of the original PlayStation era. With every calculation, we're not merely simulating; we're conjuring the very essence of what made PS1 games so enchanting. It's akin to embarking on a journey through time, transporting you back to those immersive late-night gaming sessions where each pixel held boundless adventure.
+
+Whether you're a seasoned shader wizard, deftly weaving digital spells with code, or simply a nostalgic gamer longing to revive that retro charm, this bespoke lighting model is your gateway to the ultimate nostalgia trip. So fasten your seatbelt, flex those thumbs, and prepare to elevate your shader prowess to unprecedented levels as we unleash the unparalleled force of PS1 nostalgia like never before!
 
 This step calculates the normalized direction vector of the vertex normal in object space. It discards the W component to ensure that only the directional information is retained. This directional information is crucial for lighting calculations as it determines how the surface reflects light.
 
