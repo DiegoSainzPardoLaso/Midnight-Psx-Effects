@@ -2,34 +2,46 @@
 
 **Midnight PSX Shader** is a fully functional shader made using HLSL that **brings** the original limitations of the PS1 era within the reach of a click. It allows you to create the very look you want for your game/project without needing to touch any code. It is the most flexible shader out there, and the best part is, it's **FREE!**
 
+**Texture Mapping:**
 
-**Things that the Midnight PSX Shader can do:**
+-   Affine Texture Mapping
+-   Texture Filtering
+-   Texture Pixelization
 
-- Affine Texture Mapping.
-- Texture Filtering.
-- Texture Pixelization.
-- Normal Mapping (Per Fragment Only).
-- Reflectivity Tricks with a NON-Normal Map as the Normal Input.
-- Color Precision.
-- Vertex Jitter / Disable Vertex Precision.
-- Toggle the Vertex colors painted onto the model On/Off effortlessly.
-- Custom Lambert + Specular Light Model Per Vertex.
-- Custom Lambert + Specular Light Model Per Fragment.
-- Customizeable Lighting (You can modify every setting used to compute the final pixel color).
-- Accepts Multiple Light Sources, Influencing the final color Per Vertex (Main Light + n Spotlights).
-- Accepts Multiple Light Sources, Influencing the final color Per Fragment (Main Light + n Spotlights).
-- Additional Lights can be disabled or contribute to the final per fragment lighting per Vertex or Per Fragment
-- Rim Lighting.
-- Toon Shading (Achievable due to the Lighting level of customization).
-- Metallic And Reflective Shading (Achievable due to the Lighting level of customization).
-- Dynamic Customizable LOD Mode. (Handles dynamic vertex jittering, texture filtering and texture pixelization)
-- Custom LOD Mode. (Handles dynamic vertex jittering, and custom textures for different LOD levels)
-- Draw Distance Toggle.
-- Stencil Mode; Comparison, Pass and Ref Value (You can achive impossible rooms effects (Non-Euclidean Spaces) and more) 
-- Culling Mode
-- ZWrite Mode
-- Color Mask
-- Alpha Mask Mode
+**Mapping and Lighting Enhancements:**
+
+-   Normal Mapping (Per Fragment Only)
+-   Reflectivity Tricks with a NON-Normal Map as the Normal Input
+-   Rim Lighting
+-   Toon Shading (Achievable due to the Lighting level of customization)
+-   Metallic And Reflective Shading (Achievable due to the Lighting level of customization)
+
+**Lighting Customization:**
+
+-   Custom Lambert + Specular Light Model Per Vertex
+-   Custom Lambert + Specular Light Model Per Fragment
+-   Customizeable Lighting (Modify every setting used to compute the final pixel color)
+-   Multiple Light Sources:
+    -   Influencing the final color Per Vertex (Main Light + n Spotlights)
+    -   Influencing the final color Per Fragment (Main Light + n Spotlights)
+    -   Additional Lights can be disabled or contribute to the final per fragment lighting per Vertex or Per Fragment
+
+**Level of Detail (LOD) Modes:**
+
+-   Dynamic Customizable LOD Mode (Handles dynamic vertex jittering, texture filtering, and texture pixelization)
+-   Custom LOD Mode (Allows you to set custom textures for the different LOD levels)
+-    You can combine both Dynamic and Custom LODs to achieve a wider range of effects
+
+
+**Additional Features:**
+
+-   Toggle the Vertex colors painted onto the model On/Off effortlessly
+-   Draw Distance Toggle
+-   Stencil Mode; Comparison, Pass, and Ref Value (Achieve impossible rooms effects (Non-Euclidean Spaces) and more)
+-   Culling Mode
+-   ZWrite Mode
+-   Color Mask
+-   Alpha Mask Mode
 
 
 **Additional vertical fog shader included**
