@@ -51,9 +51,8 @@
 ## Effects Examples
 
 LOD Dynamic Texture Pixelization
-
-
 <img src="Media/Dynamic_Pixelization_2.gif" style="position: relative;top:2.4px;" width="600" height="600">
+Vertex Colors Toggle
 <img src="Media/VertexColors.gif" style="position: relative;top:2.4px;" width="600" height="600">
 
 
