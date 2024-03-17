@@ -45,17 +45,25 @@
 
 **Additional vertical fog shader included**
 
+
 # Effects Showcase
 
-| LOD Dynamic Texture Pixelization | Texture Filtering |
-|:--------------------------------:|:--------------------:|
-| ![LOD Dynamic Texture Pixelization](Media/Dynamic_Pixelization_2.gif) | ![Texture Filtering](Media/TextureFiltering.gif) |
-| Affine Texture Mapping           | Vertex Colors |
-| ![Affine Texture Mapping](Media/AffineTexturing.gif) | ![Vertex Colors Toggle](Media/VertexColors.gif)  |
-| Color Precision | Default Light Modes |
-| ![Color Precision](Media/ColorPrecision.gif) | ![Light Modes](Media/DefaultLightModes.gif)|
+| Texture Filtering | LOD Dynamic Texture Pixelization |
+|:-----------------:|:--------------------------------:|
+| ![Texture Filtering](Media/TextureFiltering.gif) | ![LOD Dynamic Texture Pixelization](Media/Dynamic_Pixelization_2.gif) |
+
+| Vertex Colors | Affine Texture Mapping |
+|:-------------:|:-----------------------:|
+| ![Vertex Colors Toggle](Media/VertexColors.gif) | ![Affine Texture Mapping](Media/AffineTexturing.gif) |
+
+| Default Light Modes | Color Precision |
+|:--------------------:|:---------------:|
+| ![Light Modes](Media/DefaultLightModes.gif) | ![Color Precision](Media/ColorPrecision.gif) |
+
 | Custom LOD | NA |
+|:----------:|:--:|
 | ![Custom LOD](Media/CustomLOD.gif) | |
+
 
 
 
