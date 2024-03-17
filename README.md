@@ -52,7 +52,8 @@
 
 LOD Dynamic Texture Pixelization
 
-<img src="Media/Dynamic_Pixelization_2.gif" style="position: relative;top:2.4px;" width="12" height="22">
+
+<img src="assets/Dynamic_Pixelization_2.gif" style="position: relative;top:2.4px;" width="600" height="600">
 
 
 
