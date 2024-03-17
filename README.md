@@ -50,11 +50,12 @@
 
 ## Effects Examples
 
-| Effects | e
+| Left | Right | 
 |:--------------------------------:|:--------------------:|
 | ![LOD Dynamic Texture Pixelization](Media/Dynamic_Pixelization_2.gif) | ![Vertex Colors Toggle](Media/VertexColors.gif) |
-| Affine Texture Mapping           |                      |
+| LOD Dynamic Texture Pixelization | Vertex Colors Toggle |
 | ![Affine Texture Mapping](Media/AffineTexturing.gif) |                      |
+| Affine Texture Mapping|    ||
 
 
 
