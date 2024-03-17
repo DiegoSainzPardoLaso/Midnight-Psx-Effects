@@ -52,10 +52,7 @@
 
 LOD Dynamic Texture Pixelization
 
-
-
-
-https://github.com/DiegoSainzPardoLaso/Midnight-Psx-Effects/assets/114008071/f716ec8e-7090-4d16-8469-8a6232be1735
+<img src="Media/Dynamic_Pixelization_2.gif" style="position: relative;top:2.4px;" width="12" height="22">
 
 
 
