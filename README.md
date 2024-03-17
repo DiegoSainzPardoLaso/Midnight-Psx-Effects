@@ -50,12 +50,12 @@
 
 # Effects Showcase
 
+
+| LOD Dynamic Texture Pixelization | Vertex Colors Toggle |
 |:--------------------------------:|:--------------------:|
 | ![LOD Dynamic Texture Pixelization](Media/Dynamic_Pixelization_2.gif) | ![Vertex Colors Toggle](Media/VertexColors.gif) |
-| LOD Dynamic Texture Pixelization | Vertex Colors Toggle |
+| Affine Texture Mapping           |                      |
 | ![Affine Texture Mapping](Media/AffineTexturing.gif) |                      |
-| Affine Texture Mapping|    ||
-
 
 
 ## Effects Explanation
