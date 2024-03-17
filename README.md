@@ -49,19 +49,12 @@
 **Additional vertical fog shader included**
 
 ## Effects Examples
-
 # LOD Dynamic Texture Pixelization and Vertex Colors Toggle
 
-<div style="display: flex;">
-    <div style="flex: 1; padding: 5px;">
-        <h2>LOD Dynamic Texture Pixelization</h2>
-        <img src="Media/Dynamic_Pixelization_2.gif" style="width: 80%; height: auto; position: relative; top: 2.4px;">
-    </div>
-    <div style="flex: 1; padding: 5px;">
-        <h2>Vertex Colors Toggle</h2>
-        <img src="Media/VertexColors.gif" style="width: 80%; height: auto; position: relative; top: 2.4px;">
-    </div>
-</div>
+| LOD Dynamic Texture Pixelization | Vertex Colors Toggle |
+|----------------------------------|----------------------|
+| ![LOD Dynamic Texture Pixelization](Media/Dynamic_Pixelization_2.gif) | ![Vertex Colors Toggle](Media/VertexColors.gif) |
+
 
 
 ## Effects Explanation
