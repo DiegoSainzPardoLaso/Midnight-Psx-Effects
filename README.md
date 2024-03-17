@@ -46,7 +46,9 @@
 **Additional vertical fog shader included**
 
 
-## Effects Showcase
+## Highlighting Various Effects
+
+This compilation presents a diverse array of effects made possible by the Midnight PSX Shader.
 
 | Texture Filtering | LOD Dynamic Texture Pixelization |
 |:-----------------:|:--------------------------------:|
@@ -65,7 +67,7 @@
 | ![Custom LOD](Media/CustomLOD.gif) | ![Stencil](Media/Stencil.gif)  |
 
 
-
+And that's just a glimpse of the effects achievable with this shader. Dive in further to explore even more possibilities!
 
 ## Effects Explanation
 
