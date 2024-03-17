@@ -50,10 +50,18 @@
 
 ## Effects Examples
 
-LOD Dynamic Texture Pixelization
-<img src="Media/Dynamic_Pixelization_2.gif" style="position: relative;top:2.4px;" width="600" height="600">
-Vertex Colors Toggle
-<img src="Media/VertexColors.gif" style="position: relative;top:2.4px;" width="600" height="600">
+# LOD Dynamic Texture Pixelization and Vertex Colors Toggle
+
+<div style="display: flex;">
+    <div style="flex: 1; padding: 5px;">
+        <h2>LOD Dynamic Texture Pixelization</h2>
+        <img src="Media/Dynamic_Pixelization_2.gif" style="width: 100%; height: auto; position: relative; top: 2.4px;">
+    </div>
+    <div style="flex: 1; padding: 5px;">
+        <h2>Vertex Colors Toggle</h2>
+        <img src="Media/VertexColors.gif" style="width: 100%; height: auto; position: relative; top: 2.4px;">
+    </div>
+</div>
 
 
 ## Effects Explanation
