@@ -50,7 +50,7 @@
 
 ## Effects Examples
 
-| Effects |
+| Effects | e
 |:--------------------------------:|:--------------------:|
 | ![LOD Dynamic Texture Pixelization](Media/Dynamic_Pixelization_2.gif) | ![Vertex Colors Toggle](Media/VertexColors.gif) |
 | Affine Texture Mapping           |                      |
