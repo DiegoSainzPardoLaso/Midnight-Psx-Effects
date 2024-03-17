@@ -46,7 +46,7 @@
 **Additional vertical fog shader included**
 
 
-# Effects Showcase
+## Effects Showcase
 
 | Texture Filtering | LOD Dynamic Texture Pixelization |
 |:-----------------:|:--------------------------------:|
@@ -69,7 +69,7 @@
 
 ## Effects Explanation
 
-## NOTES
+## Notes
 - Enabling **Dynamic LOD** has the option to **override** the **Texture Pixelization, Texture Filtering and Vertex Jittering** default settings, **giving you an extra layer of customization**.
 - You can also enable Dynamic LOD and Custom LOD to mix the Texture Pixelization, Vertex Jittering and Custom Textures
 - Texture Filtering Won't work with custom LOD
