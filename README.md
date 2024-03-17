@@ -52,8 +52,8 @@
 | ![LOD Dynamic Texture Pixelization](Media/Dynamic_Pixelization_2.gif) | ![Texture Filtering](Media/TextureFiltering.gif) |
 | Affine Texture Mapping           | Vertex Colors |
 | ![Affine Texture Mapping](Media/AffineTexturing.gif) | ![Vertex Colors Toggle](Media/VertexColors.gif)  |
-| Color Precision | NA |
-| ![Color Precision](Media/ColorPrecision.gif) | |
+| Color Precision | Light Modes |
+| ![Color Precision](Media/ColorPrecision.gif) | ![Light Modes](Media/DefaultLightModes.gif)|
 
 
 
