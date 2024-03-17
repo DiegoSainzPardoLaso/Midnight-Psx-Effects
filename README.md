@@ -10,23 +10,20 @@
 -   Texture Filtering
 -   Texture Pixelization
 
-**Mapping and Lighting Enhancements:**
-
--   Normal Mapping (Per Fragment Only)
--   Reflectivity Tricks with a NON-Normal Map as the Normal Input
--   Rim Lighting
--   Toon Shading (Achievable due to the Lighting level of customization)
--   Metallic And Reflective Shading (Achievable due to the Lighting level of customization)
-
 **Lighting Customization:**
 
 -   Custom Lambert + Specular Light Model Per Vertex
 -   Custom Lambert + Specular Light Model Per Fragment
+-   Normal Mapping (Per Fragment Only)
+-   Reflectivity Tricks with a NON-Normal Map as the Normal Input
 -   Customizeable Lighting (Modify every setting used to compute the final pixel color)
 -   Multiple Light Sources:
     -   Influencing the final color Per Vertex (Main Light + n Spotlights)
     -   Influencing the final color Per Fragment (Main Light + n Spotlights)
     -   Additional Lights can be disabled or contribute to the final per fragment lighting per Vertex or Per Fragment
+-   Rim Lighting
+-   Toon Shading (Achievable due to the Lighting level of customization)
+-   Metallic And Reflective Shading (Achievable due to the Lighting level of customization)
 
 **Level of Detail (LOD) Modes:**
 
