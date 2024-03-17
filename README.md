@@ -52,7 +52,11 @@
 
 LOD Dynamic Texture Pixelization
 
-![Uploading Desktop2024.03.16-23.30.22.01online-video-cutter.com-ezgif.com-optimize.gif…]()
+
+
+
+https://github.com/DiegoSainzPardoLaso/Midnight-Psx-Effects/assets/114008071/f716ec8e-7090-4d16-8469-8a6232be1735
+
 
 
 ## Effects Explanation
