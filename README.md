@@ -60,9 +60,9 @@
 |:--------------------:|:---------------:|
 | ![Light Modes](Media/DefaultLightModes.gif) | ![Color Precision](Media/ColorPrecision.gif) |
 
-| Custom LOD | NA |
+| Custom LOD | Stencil |
 |:----------:|:--:|
-| ![Custom LOD](Media/CustomLOD.gif) | |
+| ![Custom LOD](Media/CustomLOD.gif) | ![Stencil](Media/Stencil.gif)  |
 
 
 
