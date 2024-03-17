@@ -55,11 +55,11 @@
 <div style="display: flex;">
     <div style="flex: 1; padding: 5px;">
         <h2>LOD Dynamic Texture Pixelization</h2>
-        <img src="Media/Dynamic_Pixelization_2.gif" style="width: 100%; height: auto; position: relative; top: 2.4px;">
+        <img src="Media/Dynamic_Pixelization_2.gif" style="width: 80%; height: auto; position: relative; top: 2.4px;">
     </div>
     <div style="flex: 1; padding: 5px;">
         <h2>Vertex Colors Toggle</h2>
-        <img src="Media/VertexColors.gif" style="width: 100%; height: auto; position: relative; top: 2.4px;">
+        <img src="Media/VertexColors.gif" style="width: 80%; height: auto; position: relative; top: 2.4px;">
     </div>
 </div>
 
