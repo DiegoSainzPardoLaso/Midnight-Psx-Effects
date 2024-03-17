@@ -52,7 +52,7 @@
 
 LOD Dynamic Texture Pixelization
 
-
+![Uploading Desktop2024.03.16-23.30.22.01online-video-cutter.com-ezgif.com-optimize.gif…]()
 
 
 ## Effects Explanation
