@@ -54,7 +54,7 @@ LOD Dynamic Texture Pixelization
 
 
 <img src="Media/Dynamic_Pixelization_2.gif" style="position: relative;top:2.4px;" width="600" height="600">
-
+<img src="Media/VertexColors.gif" style="position: relative;top:2.4px;" width="600" height="600">
 
 
 ## Effects Explanation
