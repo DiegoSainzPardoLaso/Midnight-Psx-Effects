@@ -50,8 +50,6 @@
 
 ## Effects Examples
 
-# LOD Dynamic Texture Pixelization and Vertex Colors Toggle
-
 | LOD Dynamic Texture Pixelization | Vertex Colors Toggle |
 |----------------------------------|----------------------|
 | ![LOD Dynamic Texture Pixelization](Media/Dynamic_Pixelization_2.gif) | ![Vertex Colors Toggle](Media/VertexColors.gif) |
