@@ -54,7 +54,8 @@
 | ![Affine Texture Mapping](Media/AffineTexturing.gif) | ![Vertex Colors Toggle](Media/VertexColors.gif)  |
 | Color Precision | Light Modes |
 | ![Color Precision](Media/ColorPrecision.gif) | ![Light Modes](Media/DefaultLightModes.gif)|
-
+| Custom LOD | NA |
+| ![Custom LOD](Media/CustomLOD.gif) | |
 
 
 
