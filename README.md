@@ -49,7 +49,6 @@
 **Additional vertical fog shader included**
 
 ## Effects Examples
-# LOD Dynamic Texture Pixelization and Vertex Colors Toggle
 
 | LOD Dynamic Texture Pixelization | Vertex Colors Toggle |
 |----------------------------------|----------------------|
