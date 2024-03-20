@@ -68,7 +68,7 @@ This compilation presents a diverse array of effects made possible by the Midnig
 
 | Vertex Lighting | Fragment Lighting |
 |:----------:|:--:|
-| ![Vertex Lighting](Media/Vertex_Lighting.gif) | ![Fragment Lighting](Media/Fragment_Lighting.gif)  |
+| ![Vertex Lighting](Media/Vertex_Lighting.gif) | ![Fragment Lighting](Media/Pixel_Lighting.gif)  |
 
 
 And that's just a glimpse of the effects achievable with this shader. Dive in further to explore even more possibilities!
