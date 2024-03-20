@@ -70,6 +70,9 @@ This compilation presents a diverse array of effects made possible by the Midnig
 |:----------:|:--:|
 | ![Vertex Lighting](Media/Vertex_Lighting.gif) | ![Fragment Lighting](Media/Pixel_Lighting.gif)  |
 
+| Normal Map Fragment Lighting Additional Lights Per Vertex | Normal Map Fragment Lighting Additional Lights Per Fragment |
+|:----------:|:--:|
+| ![Vertex Lighting](Media/Normal_Map_Plus_Fragment_Lighting_And_Additional_Lights_Per_Vertex.gif) | ![Fragment Lighting](Media/Normal_Map_Plus_Fragment_Lighting_And_Additional_Lights_Per_Fragment.gif)  |
 
 And that's just a glimpse of the effects achievable with this shader. Dive in further to explore even more possibilities!
 
