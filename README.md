@@ -74,6 +74,10 @@ This compilation presents a diverse array of effects made possible by the Midnig
 |:----------:|:--:|
 | ![Vertex Lighting](Media/Normal_Map_Plus_Fragment_Lighting_And_Additional_Lights_Per_Vertex.gif) | ![Fragment Lighting](Media/Normal_Map_Plus_Fragment_Lighting_And_Additional_Lights_Per_Fragment.gif)  |
 
+| Vertex Jitter | Draw Distance |
+|:----------:|:--:|
+| ![Vertex Jitter](Media/VertexJitter.gif) | ![Draw Distance](Media/DrawDistance.gif)  |
+
 And that's just a glimpse of the effects achievable with this shader. Dive in further to explore even more possibilities!
 
 ## Effects Explanation
