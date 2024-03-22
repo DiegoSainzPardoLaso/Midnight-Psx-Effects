@@ -89,6 +89,11 @@ And that's just a glimpse of the effects achievable with this shader. Dive in fu
 
 ## Effects Explanation
 
+-**Affine Texture Mapping:** A basic form of texture mapping that applies textures to surfaces by linearly interpolating texture coordinates across polygons, disregarding perspective correction.
+-**Texture Filtering:** A process that smoothens textures to reduce aliasing artifacts, commonly achieved through techniques like bilinear or trilinear filtering to improve visual quality.
+-**Texture Pixelization:** An effect that intentionally distorts textures by reducing their resolution, often used for stylistic purposes or to simulate low-resolution graphics.
+
+
 ## Notes
 - Enabling **Dynamic LOD** has the option to **override** the **Texture Pixelization, Texture Filtering and Vertex Jittering** default settings, **giving you an extra layer of customization**.
 - You can also enable Dynamic LOD and Custom LOD to mix the Texture Pixelization, Vertex Jittering and Custom Textures
