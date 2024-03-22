@@ -50,33 +50,31 @@
 
 This compilation presents a diverse array of effects made possible by the Midnight PSX Shader.
 
-| Texture Filtering | LOD Dynamic Texture Pixelization |
-|:-----------------:|:--------------------------------:|
-| ![Texture Filtering](Media/TextureFiltering.gif) | ![LOD Dynamic Texture Pixelization](Media/Dynamic_Pixelization_2.gif) |
+| Feature                                             | Preview                                              |
+|-----------------------------------------------------|------------------------------------------------------|
+| **Texture Filtering**                               | **Affine Texture Mapping**                           |
+| ![Texture Filtering](Media/TextureFiltering.gif)    | ![Affine Texture Mapping](Media/AffineTexturing.gif) |
 
-| Vertex Colors | Affine Texture Mapping |
-|:-------------:|:-----------------------:|
-| ![Vertex Colors Toggle](Media/VertexColors.gif) | ![Affine Texture Mapping](Media/AffineTexturing.gif) |
+| **LOD Dynamic Texture Pixelization**                | **Custom LOD**                                       | **Stencil**                              |
+|-----------------------------------------------------|------------------------------------------------------|------------------------------------------|
+| ![LOD Dynamic Texture Pixelization](Media/Dynamic_Pixelization_2.gif) | ![Custom LOD](Media/CustomLOD.gif) | ![Stencil](Media/Stencil.gif) |
 
-| Default Light Modes | Color Precision |
-|:--------------------:|:---------------:|
-| ![Light Modes](Media/DefaultLightModes.gif) | ![Color Precision](Media/ColorPrecision.gif) |
+| **Vertex Colors**                                   | **Vertex Lighting**                                  | **Fragment Lighting**                    |
+|-----------------------------------------------------|------------------------------------------------------|-----------------------------------------|
+| ![Vertex Colors Toggle](Media/VertexColors.gif)     | ![Vertex Lighting](Media/Vertex_Lighting.gif)        | ![Fragment Lighting](Media/Pixel_Lighting.gif) |
 
-| Custom LOD | Stencil |
-|:----------:|:--:|
-| ![Custom LOD](Media/CustomLOD.gif) | ![Stencil](Media/Stencil.gif)  |
+| **Default Light Modes**                             | **Color Precision**                                  | **Normal Map Fragment Lighting Additional Lights Per Vertex** |
+|-----------------------------------------------------|------------------------------------------------------|----------------------------------------------------------------|
+| ![Light Modes](Media/DefaultLightModes.gif)         | ![Color Precision](Media/ColorPrecision.gif)        | ![Normal Map Fragment Lighting Additional Lights Per Vertex](Media/Normal_Map_Plus_Fragment_Lighting_And_Additional_Lights_Per_Vertex.gif) |
 
-| Vertex Lighting | Fragment Lighting |
-|:----------:|:--:|
-| ![Vertex Lighting](Media/Vertex_Lighting.gif) | ![Fragment Lighting](Media/Pixel_Lighting.gif)  |
+| **Normal Map Fragment Lighting Additional Lights Per Fragment** |
+|----------------------------------------------------------------|
+| ![Normal Map Fragment Lighting Additional Lights Per Fragment](Media/Normal_Map_Plus_Fragment_Lighting_And_Additional_Lights_Per_Fragment.gif) |
 
-| Normal Map Fragment Lighting Additional Lights Per Vertex | Normal Map Fragment Lighting Additional Lights Per Fragment |
-|:----------:|:--:|
-| ![Vertex Lighting](Media/Normal_Map_Plus_Fragment_Lighting_And_Additional_Lights_Per_Vertex.gif) | ![Fragment Lighting](Media/Normal_Map_Plus_Fragment_Lighting_And_Additional_Lights_Per_Fragment.gif)  |
+| **Vertex Jitter**                                   | **Draw Distance**                                    |
+|-----------------------------------------------------|------------------------------------------------------|
+| ![Vertex Jitter](Media/VertexJitter.gif)           | ![Draw Distance](Media/DrawDistance.gif)            |
 
-| Vertex Jitter | Draw Distance |
-|:----------:|:--:|
-| ![Vertex Jitter](Media/VertexJitter.gif) | ![Draw Distance](Media/DrawDistance.gif)  |
 
 And that's just a glimpse of the effects achievable with this shader. Dive in further to explore even more possibilities!
 
