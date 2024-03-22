@@ -50,30 +50,43 @@
 
 This compilation presents a diverse array of effects made possible by the Midnight PSX Shader.
 
-| Feature                                             | Preview                                              |
-|-----------------------------------------------------|------------------------------------------------------|
-| **Texture Filtering**                               | **Affine Texture Mapping**                           |
-| ![Texture Filtering](Media/TextureFiltering.gif)    | ![Affine Texture Mapping](Media/AffineTexturing.gif) |
+| Vertex Jitter                                       | Vertex Colors                                                                                    |
+|:---------------------------------------------------:|:------------------------------------------------------------------------------------------------:|
+| ![Vertex Jitter](Media/VertexJitter.gif)            | ![Vertex Colors Toggle](Media/VertexColors.gif)                                                  | 
 
-| **LOD Dynamic Texture Pixelization**                | **Custom LOD**                                       | **Stencil**                              |
-|-----------------------------------------------------|------------------------------------------------------|------------------------------------------|
-| ![LOD Dynamic Texture Pixelization](Media/Dynamic_Pixelization_2.gif) | ![Custom LOD](Media/CustomLOD.gif) | ![Stencil](Media/Stencil.gif) |
 
-| **Vertex Colors**                                   | **Vertex Lighting**                                  | **Fragment Lighting**                    |
-|-----------------------------------------------------|------------------------------------------------------|-----------------------------------------|
-| ![Vertex Colors Toggle](Media/VertexColors.gif)     | ![Vertex Lighting](Media/Vertex_Lighting.gif)        | ![Fragment Lighting](Media/Pixel_Lighting.gif) |
+| Affine Texture Mapping                              | Texture Filtering                                                                                |
+|:---------------------------------------------------:|:------------------------------------------------------------------------------------------------:|
+|![Affine Texture Mapping](Media/AffineTexturing.gif) | ![Texture Filtering](Media/TextureFiltering.gif)                                                 |
 
-| **Default Light Modes**                             | **Color Precision**                                  | **Normal Map Fragment Lighting Additional Lights Per Vertex** |
-|-----------------------------------------------------|------------------------------------------------------|----------------------------------------------------------------|
-| ![Light Modes](Media/DefaultLightModes.gif)         | ![Color Precision](Media/ColorPrecision.gif)        | ![Normal Map Fragment Lighting Additional Lights Per Vertex](Media/Normal_Map_Plus_Fragment_Lighting_And_Additional_Lights_Per_Vertex.gif) |
+| Default Light Modes                                 | Vertex Lighting                                                                                  |
+|:---------------------------------------------------:|:------------------------------------------------------------------------------------------------:|
+| ![Light Modes](Media/DefaultLightModes.gif)         | ![Vertex Lighting](Media/Vertex_Lighting.gif)                                                    |
 
-| **Normal Map Fragment Lighting Additional Lights Per Fragment** |
-|----------------------------------------------------------------|
-| ![Normal Map Fragment Lighting Additional Lights Per Fragment](Media/Normal_Map_Plus_Fragment_Lighting_And_Additional_Lights_Per_Fragment.gif) |
 
-| **Vertex Jitter**                                   | **Draw Distance**                                    |
-|-----------------------------------------------------|------------------------------------------------------|
-| ![Vertex Jitter](Media/VertexJitter.gif)           | ![Draw Distance](Media/DrawDistance.gif)            |
+| Fragment Lighting                                   | Normal Map Fragment Lighting Additional Lights Per Vertex                                        |
+|:---------------------------------------------------:|:------------------------------------------------------------------------------------------------:|
+| ![Fragment Lighting](Media/Pixel_Lighting.gif)      | ![Vertex Lighting](Media/Normal_Map_Plus_Fragment_Lighting_And_Additional_Lights_Per_Vertex.gif) |
+
+
+| Normal Map Fragment Lighting Additional Lights Per Fragment                                          |                                                 |
+|:----------------------------------------------------------------------------------------------------:|:-----------------------------------------------:|
+ ![Fragment Lighting](Media/Normal_Map_Plus_Fragment_Lighting_And_Additional_Lights_Per_Fragment.gif)  |                                                 |
+
+ 
+| Custom LOD | Stencil |
+|:----------:|:--:|
+| ![Custom LOD](Media/CustomLOD.gif) | ![Stencil](Media/Stencil.gif)  |
+
+
+ LOD Dynamic Texture Pixelization | Color Precision |
+:--------------------------------:|
+ ![LOD Dynamic Texture Pixelization](Media/Dynamic_Pixelization_2.gif) | ![Color Precision](Media/ColorPrecision.gif) |
+
+
+
+ Draw Distance 
+ ![Draw Distance](Media/DrawDistance.gif) 
 
 
 And that's just a glimpse of the effects achievable with this shader. Dive in further to explore even more possibilities!
