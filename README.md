@@ -87,38 +87,6 @@ This compilation presents a diverse array of effects made possible by the Midnig
 
 And that's just a glimpse of the effects achievable with this shader. Dive in further to explore even more possibilities!
 
-## Effects Explanation
-
-**Texture Mapping:**
--    **Affine Texture Mapping:** A basic form of texture mapping that applies textures to surfaces by linearly interpolating texture coordinates across polygons, disregarding perspective correction.
--    **Texture Filtering:** A process that smoothens textures to reduce aliasing artifacts, commonly achieved through techniques like bilinear or trilinear filtering to improve visual quality.
--    **Texture Pixelization:** An effect that intentionally distorts textures by reducing their resolution, often used for stylistic purposes or to simulate low-resolution graphics.
-
-**Lighting Customization:**
--    **Custom Lambert + Specular Light Model Per Vertex:** Defines lighting calculations for each vertex of a 3D model using Lambertian diffuse reflection and specular highlights, computed per vertex.
--    **Custom Lambert + Specular Light Model Per Fragment:** Similar to per-vertex lighting, but computed per fragment, providing more accurate lighting effects.
--    **Normal Mapping (Per Fragment Only):** A technique to add detail to surfaces without increasing polygon count by encoding surface normals in a texture and perturbing fragment normals during rendering.
--    **Reflectivity Tricks with a NON-Normal Map as the Normal Input:** Utilizes unconventional textures (not necessarily normal maps) to simulate reflections, achieving reflective effects without traditional normal mapping.
--    **Customizable Lighting:** Allows modification of various parameters affecting the calculation of final pixel colors, providing flexibility in achieving desired lighting effects.
--    **Multiple Light Sources:** Enables the integration of multiple light sources into the rendering pipeline, influencing the final color calculation either per vertex or per fragment, with options to disable or adjust each light source.
--    **Rim Lighting:** Adds an additional lighting effect around the silhouette of objects, enhancing their contours and creating visual interest.
--    **Toon Shading:** A stylized shading technique that simplifies lighting calculations to produce a cartoon-like appearance, often characterized by distinct regions of light and shadow.
--    **Metallic And Reflective Shading:** Utilizes advanced lighting customization to achieve materials with metallic properties and realistic reflections, enhancing the visual fidelity of rendered scenes.
-
-**Level of Detail (LOD) Modes:**
--    **Dynamic Customizable LOD Mode:** Dynamically adjusts the level of detail of rendered objects based on factors like distance from the camera, incorporating customizable settings for vertex jittering, texture filtering, and pixelization.
--    **Custom LOD Mode:** Allows manual assignment of different textures for various LOD levels, enabling finer control over the appearance of objects at different distances.
--    **Combined Dynamic and Custom LODs:** Offers the flexibility to utilize both dynamic and custom LOD techniques simultaneously, providing a broader range of options to optimize rendering performance and visual quality.
-
-**Additional Features:**
--    **Toggle Vertex Colors:** Allows the user to enable or disable the display of vertex colors painted onto models, providing flexibility in visual representation.
--    **Draw Distance Toggle:** Enables the adjustment of the distance at which objects are rendered, optimizing performance by controlling the rendering range.
--    **Stencil Mode:** Facilitates the creation of complex rendering effects such as non-Euclidean spaces and more through stencil-based operations including comparison, pass, and reference value settings.
--    **Culling Mode:** Determines which objects or parts of objects are not rendered based on their orientation relative to the camera, optimizing rendering performance by excluding non-visible geometry.
--    **ZWrite Mode:** Controls whether depth information is written to the depth buffer during rendering, affecting the rendering order and handling of occlusion.
--    **Color Mask:** Allows selective rendering of specific color channels, enabling control over which color components contribute to the final image.
--    **Alpha Mask Mode:** Facilitates rendering objects with transparency by using an alpha mask to control the visibility of pixels based on their opacity values.
-
 
 ## Notes
 - Enabling **Dynamic LOD** has the option to **override** the **Texture Pixelization, Texture Filtering and Vertex Jittering** default settings, **giving you an extra layer of customization**.
@@ -127,7 +95,6 @@ And that's just a glimpse of the effects achievable with this shader. Dive in fu
 - **Set all your textures to point filter** in the texture settings if you want the best results.
 - For a **cleaner result** while using Texture Filtering and Texture Pixelization **disable Mip Mapping** in your texture settings.
 - Texture Filtering and Texture Pixelization **won't work** with Alpha Cut Outs.
-
 
 
 ## Custom Lighting Model 
