@@ -43,7 +43,7 @@
 -   Alpha Mask Mode
 
 
-**Additional vertical fog shader included**
+**"Additional vertical fog shader included"**
 
 
 ## Highlighting Various Effects
