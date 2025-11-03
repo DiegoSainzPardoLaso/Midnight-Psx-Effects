@@ -22,7 +22,8 @@ Shader "Custom PSX Shaders/Midnight PSX Polygons"
 
 		[Enum(PSX Point,0, PSX Bilinear,512, N64, 256, Saturn, 128,  LOD Close, 94, LOD Mid, 59, LOD Far, 17)] _Filtering ("Filtering Mode", int) = 0			 
 		
-		[Toggle] _AffineMappingToggle("Enable Affine Texture Mapping", float) = 0																				 
+		[Toggle] _AffineMappingToggle("Enable Affine Texture Mapping", float) = 0
+		[PowerSlider(2.0)]_AffineMappingStrength("Affine Mapping Strength", Range(0, 1)) = 1.0																				 
 
 		[Toggle] _PixelationToggle("Enable Texture Pixelization", float) = 0																					 
 		_PixelationFactor("Texture Resolution", float) = 1024																									 

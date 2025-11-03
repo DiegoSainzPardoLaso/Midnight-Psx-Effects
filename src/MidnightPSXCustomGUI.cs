@@ -219,6 +219,13 @@ public class MidnightPSXCustomGUI : ShaderGUI
         MaterialProperty affine = FindProperty("_AffineMappingToggle");
         GUIContent affineLabel = MakeLabel("Enable Affine Mapping", "Emulates the texture warping seen in the original PSX");
         editor.ShaderProperty(affine, affineLabel);
+
+        if (affine.floatValue == 1)
+        {
+            MaterialProperty affineStrength = FindProperty("_AffineMappingStrength");
+            GUIContent affineStrengthLabel = MakeLabel("Affine Mapping Strength", "Controls the strength of the affine mapping effect");
+            editor.ShaderProperty(affineStrength, affineStrengthLabel);
+        }
     }
 
     void DoTexturePixelization()

@@ -23,6 +23,7 @@ float _Filtering;
 float _FilterResolution;
 
 float _AffineMappingToggle;
+float _AffineMappingStrength;
 float _PixelationToggle;
 float _PixelationFactor;
  
@@ -198,7 +199,12 @@ float3 HandleLightingPerVertex(VertexAttributes v, VertexPositionInputs vertexIn
 float2 HandleAffineMappingVertexPart(VertexAttributes v, ToFragmentData outputData)
 {
     if (_AffineMappingToggle)
-        return TRANSFORM_TEX(v.uv, _MainTex) * outputData.positionWS.w;
+    {
+        // Lerp between normal UVs and affine UVs BEFORE interpolation
+        float2 transformedUV = TRANSFORM_TEX(v.uv, _MainTex);
+        float2 affineUV = transformedUV * outputData.positionWS.w;
+        return lerp(transformedUV, affineUV, _AffineMappingStrength);
+    }
 
     return v.uv;
 }
@@ -429,7 +435,12 @@ float3 HandleLightingPerFragment(ToFragmentData input, float3 normals)
 float2 HandleAffineTextureMappingFragmentPart(float2 uv, float w)
 {
     if (_AffineMappingToggle)
-        return float2(uv / w);
+    {
+        // Strength is 1: uv was multiplied by w in vertex, so divide by w
+        // Strength is 0: uv was not multiplied, so don't divide
+        float divisor = lerp(1.0, w, _AffineMappingStrength);
+        return float2(uv / divisor);
+    }
 
     return uv;
 }
