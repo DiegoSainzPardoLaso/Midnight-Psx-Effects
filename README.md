@@ -12,6 +12,7 @@ Then go to your "Universal Renderer Data" and change Rendering Path from "Forwar
 **Texture Mapping:**
 
 -   Affine Texture Mapping
+-   Adjustable Affine Texture mapping (Courtesy of Jack Shilton)
 -   Texture Filtering
 -   Texture Pixelization
 
