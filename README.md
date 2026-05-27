@@ -1,7 +1,3 @@
-# UPDATE
-This repository has migrated to Codeberg. I will leave this version of the repository online, but It won't be updated.
-New repo: https://codeberg.org/DiegoSainzPardoLaso/Midnight-Psx-Effects
-
 # IMPORTANT
 To enable multiple additional lights to affect the mesh, you need to go to your "Render Pipeline Asset" and set "Aditional Lights" to "Per Vertex". The shader will take care of how the lights affect the mesh (Per vertex / Pixel).
 
