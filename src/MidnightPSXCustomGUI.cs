@@ -1,6 +1,7 @@
 using UnityEngine;
-using UnityEditor;
 
+#if UNITY_EDITOR
+    using UnityEditor;
 
 public class MidnightPSXCustomGUI : ShaderGUI
 {
@@ -24,29 +25,29 @@ public class MidnightPSXCustomGUI : ShaderGUI
     // Texture2D mainTexture;
 
 
-    bool _textureSettingsShowPosition = true;
-    string _textureStatus             = "Texture Settings";
+    bool _textureSettingsShowPosition   = true;
+    string _textureStatus               = "Texture Settings";
 
-    bool _surfaceSettingsShowPosition = true;
-    string _surfaceStatus             = "Surface Settings";
+    bool _surfaceSettingsShowPosition   = true;
+    string _surfaceStatus               = "Surface Settings";
 
-    bool _lightingShowPosition = true;
-    string _lightingStatus     = "Lighting Settings";
-
-    bool _vertexShowPosition = true;
-    string _vertexStatus     = "Vertex Settings";
+    bool _lightingShowPosition          = true;
+    string _lightingStatus              = "Lighting Settings";
+                                     
+    bool _vertexShowPosition            = true;
+    string _vertexStatus                = "Vertex Settings";
 
     bool   _advancedOptionsShowPosition = true;
     string _advancedOptionsStatus       = "Advanced Settings";
 
-    bool _LODShowPosition = true;
-    string _LODStatus     = "LOD Settings";
+    bool _LODShowPosition               = true;
+    string _LODStatus                   = "LOD Settings";
 
-    bool _DrawDistanceShowPosition = true;
-    string _DrawDistanceStatus     = "Draw Distance Settings";
+    bool _DrawDistanceShowPosition      = true;
+    string _DrawDistanceStatus          = "Draw Distance Settings";
 
-    bool _AnimatedVertexPosition = true;
-    string _animatedVertexStatus = "Animated Vertices Settings";
+    bool _AnimatedVertexPosition        = true;
+    string _animatedVertexStatus        = "Animated Vertices Settings";
 
     public override void OnGUI(MaterialEditor editor, MaterialProperty[] properties)
     {
@@ -787,3 +788,4 @@ public class MidnightPSXCustomGUI : ShaderGUI
     }
 
 }
+#endif
